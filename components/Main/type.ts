@@ -6,4 +6,5 @@ export interface Todolist {
 
 export interface MainViewProps {
   addList: KeyboardEventHandler<HTMLInputElement>;
+  todolist: Todolist[];
 }
